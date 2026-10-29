@@ -1,4 +1,4 @@
-# 🎓 AI-Based University Timetable Scheduler
+#  AI-Based University Timetable Scheduler
 
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![UI](https://img.shields.io/badge/UI-Streamlit-FF4B4B.svg?logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -9,7 +9,7 @@ An AI-powered academic course timetable generator that formulates scheduling as 
 
 ---
 
-## 📌 System Architecture & Data Flow
+##  System Architecture & Data Flow
 
 ```mermaid
 graph TD
@@ -32,7 +32,7 @@ graph TD
 
 ---
 
-## 📋 Constraints Modeled
+##  Constraints Modeled
 
 ### Hard Constraints (H1 – H9) — Zero Violations Allowed
 Any timetable with hard violations ($H > 0$) is invalid.
@@ -64,7 +64,7 @@ $$\text{Global Cost} = 1000 \times \sum_{k=1}^9 \text{violations}(H_k) + \sum_{m
 
 ---
 
-## 🧠 AI Solvers & Heuristics
+##  AI Solvers & Heuristics
 
 1. **Informed CSP Backtracking (`core/backtracking.py`)**:
    - **MRV (Minimum Remaining Values)**: Fails-first variable ordering based on smallest remaining domain.
@@ -85,7 +85,7 @@ $$\text{Global Cost} = 1000 \times \sum_{k=1}^9 \text{violations}(H_k) + \sum_{m
 
 ---
 
-## 📊 Experimental Results
+##  Experimental Results
 
 Empirical performance measured across multiple trials on benchmark datasets:
 
@@ -102,7 +102,7 @@ Empirical performance measured across multiple trials on benchmark datasets:
 
 ---
 
-## 📁 Project Directory Structure
+##  Project Directory Structure
 
 ```
 Ai project/
@@ -134,19 +134,19 @@ Ai project/
 
 ---
 
-## 🖥️ Streamlit Web Interface Features
+##  Streamlit Web Interface Features
 
-1. **📂 Dataset Management**: Load presets (Small, Medium, Large, CS Department) or upload custom JSON / 4-CSV sets with instant solvability validation.
-2. **⚙️ Timetable Generator**: Select solver algorithm, toggle heuristics (MRV, Degree, LCV, FC), tune soft weights, and observe live progress.
-3. **📅 Multi-View Schedules**: High-contrast, color-coded weekly schedule grids viewable by **Class Batch**, **Faculty Member**, or **Master Campus View**.
-4. **✏️ Conflict-Checked Editor**: Move sessions between slots with real-time validation against all 9 hard constraints.
-5. **⚖️ Multi-Solver Comparison**: Run algorithms side-by-side to benchmark runtimes and quality metrics.
-6. **📈 Empirical Experiments**: Run ablation studies and visualize convergence trajectories directly in browser.
-7. **💾 Export Center**: One-click download as raw CSV, multi-sheet formatted Excel (`.xlsx`), or printable PDF.
+1. ** Dataset Management**: Load presets (Small, Medium, Large, CS Department) or upload custom JSON / 4-CSV sets with instant solvability validation.
+2. ** Timetable Generator**: Select solver algorithm, toggle heuristics (MRV, Degree, LCV, FC), tune soft weights, and observe live progress.
+3. ** Multi-View Schedules**: High-contrast, color-coded weekly schedule grids viewable by **Class Batch**, **Faculty Member**, or **Master Campus View**.
+4. ** Conflict-Checked Editor**: Move sessions between slots with real-time validation against all 9 hard constraints.
+5. ** Multi-Solver Comparison**: Run algorithms side-by-side to benchmark runtimes and quality metrics.
+6. ** Empirical Experiments**: Run ablation studies and visualize convergence trajectories directly in browser.
+7. **Export Center**: One-click download as raw CSV, multi-sheet formatted Excel (`.xlsx`), or printable PDF.
 
 ---
 
-## 🚀 Quickstart & Setup
+##  Quickstart & Setup
 
 ### 1. Clone & Set Up Environment
 ```bash
@@ -177,13 +177,3 @@ Open your browser at `http://localhost:8501`.
 
 ---
 
-## 🎓 Evaluator & Viva Defense Cheat Sheet
-
-* **Q: Why is timetabling NP-complete?**  
-  *A: It generalizes the Graph Multi-Coloring Problem (vertices = sessions, edges = clashes, colors = slots) with multi-dimensional resource constraints.*
-* **Q: Why does MRV outperform Chronological Backtracking on dense instances?**  
-  *A: MRV applies the "fails-first" principle by selecting variables with the fewest legal values, pruning impossible branches early to prevent combinatorial thrashing.*
-* **Q: How does `FastOccupancy` achieve $O(1)$ clash detection?**  
-  *A: It maintains spatial-temporal hash counters `(day, period) -> Counter(entity)` for teachers, rooms, and classes, replacing $O(N^2)$ pairwise checks with constant-time key lookups.*
-* **Q: Why use the Two-Phase Hybrid (BT + SA) solver?**  
-  *A: Backtracking guarantees 0 hard violations ($H = 0$) in milliseconds, while Simulated Annealing optimizes soft constraints ($S \to 0$) without ever violating hard feasibility.*
