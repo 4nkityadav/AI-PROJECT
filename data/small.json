@@ -1,0 +1,196 @@
+{
+  "subjects": [
+    {
+      "code": "CS201",
+      "name": "Data Structures",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "CS202",
+      "name": "Database Systems",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "CS203",
+      "name": "Operating Systems",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "MA201",
+      "name": "Discrete Mathematics",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "PH201",
+      "name": "Physics",
+      "weekly_hours": 2,
+      "type": "theory"
+    },
+    {
+      "code": "CS204",
+      "name": "DS Lab",
+      "weekly_hours": 2,
+      "type": "lab"
+    },
+    {
+      "code": "CS205",
+      "name": "DBMS Lab",
+      "weekly_hours": 2,
+      "type": "lab"
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. Sharma",
+      "subjects": [
+        "CS201",
+        "CS203"
+      ],
+      "unavailable_slots": [
+        [
+          0,
+          5
+        ]
+      ],
+      "max_weekly_load": 18,
+      "avoid_periods": [
+        0
+      ]
+    },
+    {
+      "name": "Dr. Gupta",
+      "subjects": [
+        "CS202",
+        "CS205"
+      ],
+      "unavailable_slots": [
+        [
+          4,
+          0
+        ]
+      ],
+      "max_weekly_load": 18,
+      "avoid_periods": []
+    },
+    {
+      "name": "Dr. Kumar",
+      "subjects": [
+        "MA201"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 15,
+      "avoid_periods": [
+        0
+      ]
+    },
+    {
+      "name": "Dr. Singh",
+      "subjects": [
+        "PH201"
+      ],
+      "unavailable_slots": [
+        [
+          2,
+          4
+        ]
+      ],
+      "max_weekly_load": 12,
+      "avoid_periods": []
+    },
+    {
+      "name": "Prof. Rao",
+      "subjects": [
+        "CS204"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 12,
+      "avoid_periods": []
+    },
+    {
+      "name": "Prof. Jain",
+      "subjects": [
+        "CS201",
+        "MA201"
+      ],
+      "unavailable_slots": [
+        [
+          1,
+          0
+        ]
+      ],
+      "max_weekly_load": 15,
+      "avoid_periods": [
+        0
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "name": "CSE-A",
+      "strength": 40,
+      "subjects": [
+        "CS201",
+        "CS202",
+        "MA201",
+        "PH201",
+        "CS204"
+      ],
+      "lunch_break_slot": 2
+    },
+    {
+      "name": "CSE-B",
+      "strength": 35,
+      "subjects": [
+        "CS201",
+        "CS203",
+        "MA201",
+        "PH201",
+        "CS205"
+      ],
+      "lunch_break_slot": 2
+    },
+    {
+      "name": "CSE-C",
+      "strength": 45,
+      "subjects": [
+        "CS202",
+        "CS203",
+        "MA201",
+        "CS204",
+        "CS205"
+      ],
+      "lunch_break_slot": 2
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Room-101",
+      "capacity": 50,
+      "type": "classroom"
+    },
+    {
+      "name": "Room-102",
+      "capacity": 45,
+      "type": "classroom"
+    },
+    {
+      "name": "Room-103",
+      "capacity": 40,
+      "type": "classroom"
+    },
+    {
+      "name": "Lab-1",
+      "capacity": 50,
+      "type": "lab"
+    }
+  ],
+  "time_structure": {
+    "working_days": 5,
+    "periods_per_day": 6,
+    "break_periods": []
+  }
+}

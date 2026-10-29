@@ -1,0 +1,420 @@
+{
+  "subjects": [
+    {
+      "code": "CS301",
+      "name": "Algorithms",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "CS302",
+      "name": "Computer Networks",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "CS303",
+      "name": "Software Engineering",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "CS304",
+      "name": "Machine Learning",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "CS305",
+      "name": "Web Development",
+      "weekly_hours": 2,
+      "type": "theory"
+    },
+    {
+      "code": "CS306",
+      "name": "Cyber Security",
+      "weekly_hours": 2,
+      "type": "theory"
+    },
+    {
+      "code": "MA301",
+      "name": "Linear Algebra",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "MA302",
+      "name": "Probability",
+      "weekly_hours": 2,
+      "type": "theory"
+    },
+    {
+      "code": "EC301",
+      "name": "Digital Electronics",
+      "weekly_hours": 2,
+      "type": "theory"
+    },
+    {
+      "code": "CS307",
+      "name": "Algo Lab",
+      "weekly_hours": 2,
+      "type": "lab"
+    },
+    {
+      "code": "CS308",
+      "name": "Networks Lab",
+      "weekly_hours": 2,
+      "type": "lab"
+    },
+    {
+      "code": "CS309",
+      "name": "ML Lab",
+      "weekly_hours": 2,
+      "type": "lab"
+    },
+    {
+      "code": "CS310",
+      "name": "Web Lab",
+      "weekly_hours": 2,
+      "type": "lab"
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. Agarwal",
+      "subjects": [
+        "CS301",
+        "CS307"
+      ],
+      "unavailable_slots": [
+        [
+          0,
+          6
+        ]
+      ],
+      "max_weekly_load": 20,
+      "avoid_periods": [
+        0
+      ]
+    },
+    {
+      "name": "Dr. Banerjee",
+      "subjects": [
+        "CS302",
+        "CS308"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 20,
+      "avoid_periods": []
+    },
+    {
+      "name": "Dr. Choudhary",
+      "subjects": [
+        "CS303"
+      ],
+      "unavailable_slots": [
+        [
+          4,
+          0
+        ]
+      ],
+      "max_weekly_load": 18,
+      "avoid_periods": [
+        0
+      ]
+    },
+    {
+      "name": "Dr. Das",
+      "subjects": [
+        "CS304",
+        "CS309"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 20,
+      "avoid_periods": []
+    },
+    {
+      "name": "Dr. Emani",
+      "subjects": [
+        "CS305",
+        "CS310"
+      ],
+      "unavailable_slots": [
+        [
+          2,
+          5
+        ]
+      ],
+      "max_weekly_load": 18,
+      "avoid_periods": []
+    },
+    {
+      "name": "Dr. Fernandes",
+      "subjects": [
+        "CS306"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 15,
+      "avoid_periods": [
+        0
+      ]
+    },
+    {
+      "name": "Dr. Ghosh",
+      "subjects": [
+        "MA301"
+      ],
+      "unavailable_slots": [
+        [
+          1,
+          0
+        ]
+      ],
+      "max_weekly_load": 20,
+      "avoid_periods": [
+        0
+      ]
+    },
+    {
+      "name": "Dr. Hussain",
+      "subjects": [
+        "MA302"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 15,
+      "avoid_periods": []
+    },
+    {
+      "name": "Dr. Iyer",
+      "subjects": [
+        "EC301"
+      ],
+      "unavailable_slots": [
+        [
+          3,
+          6
+        ]
+      ],
+      "max_weekly_load": 15,
+      "avoid_periods": []
+    },
+    {
+      "name": "Prof. Joshi",
+      "subjects": [
+        "CS301",
+        "CS303"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18,
+      "avoid_periods": []
+    },
+    {
+      "name": "Prof. Kapoor",
+      "subjects": [
+        "CS302",
+        "CS304"
+      ],
+      "unavailable_slots": [
+        [
+          0,
+          0
+        ]
+      ],
+      "max_weekly_load": 18,
+      "avoid_periods": [
+        0
+      ]
+    },
+    {
+      "name": "Prof. Lal",
+      "subjects": [
+        "MA301",
+        "MA302"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18,
+      "avoid_periods": []
+    },
+    {
+      "name": "Prof. Mehta",
+      "subjects": [
+        "CS307",
+        "CS308"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 16,
+      "avoid_periods": []
+    },
+    {
+      "name": "Prof. Nair",
+      "subjects": [
+        "CS309",
+        "CS310"
+      ],
+      "unavailable_slots": [
+        [
+          4,
+          5
+        ]
+      ],
+      "max_weekly_load": 16,
+      "avoid_periods": []
+    },
+    {
+      "name": "Prof. Pandey",
+      "subjects": [
+        "CS305",
+        "CS306",
+        "EC301"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18,
+      "avoid_periods": []
+    }
+  ],
+  "classes": [
+    {
+      "name": "CS-3A",
+      "strength": 50,
+      "subjects": [
+        "CS301",
+        "CS302",
+        "MA301",
+        "CS305",
+        "CS307"
+      ],
+      "lunch_break_slot": 3
+    },
+    {
+      "name": "CS-3B",
+      "strength": 45,
+      "subjects": [
+        "CS301",
+        "CS303",
+        "MA301",
+        "CS306",
+        "CS308"
+      ],
+      "lunch_break_slot": 3
+    },
+    {
+      "name": "CS-3C",
+      "strength": 50,
+      "subjects": [
+        "CS302",
+        "CS304",
+        "MA302",
+        "EC301",
+        "CS309"
+      ],
+      "lunch_break_slot": 3
+    },
+    {
+      "name": "CS-3D",
+      "strength": 40,
+      "subjects": [
+        "CS303",
+        "CS304",
+        "MA301",
+        "CS305",
+        "CS310"
+      ],
+      "lunch_break_slot": 3
+    },
+    {
+      "name": "CS-4A",
+      "strength": 45,
+      "subjects": [
+        "CS301",
+        "CS304",
+        "MA302",
+        "CS306",
+        "CS307"
+      ],
+      "lunch_break_slot": 3
+    },
+    {
+      "name": "CS-4B",
+      "strength": 50,
+      "subjects": [
+        "CS302",
+        "CS303",
+        "MA301",
+        "EC301",
+        "CS308"
+      ],
+      "lunch_break_slot": 3
+    },
+    {
+      "name": "CS-4C",
+      "strength": 40,
+      "subjects": [
+        "CS301",
+        "CS305",
+        "MA302",
+        "CS306",
+        "CS309"
+      ],
+      "lunch_break_slot": 3
+    },
+    {
+      "name": "CS-4D",
+      "strength": 45,
+      "subjects": [
+        "CS303",
+        "CS304",
+        "MA301",
+        "EC301",
+        "CS310"
+      ],
+      "lunch_break_slot": 3
+    }
+  ],
+  "rooms": [
+    {
+      "name": "Hall-A",
+      "capacity": 60,
+      "type": "classroom"
+    },
+    {
+      "name": "Hall-B",
+      "capacity": 55,
+      "type": "classroom"
+    },
+    {
+      "name": "Hall-C",
+      "capacity": 50,
+      "type": "classroom"
+    },
+    {
+      "name": "Hall-D",
+      "capacity": 50,
+      "type": "classroom"
+    },
+    {
+      "name": "CompLab-1",
+      "capacity": 50,
+      "type": "lab"
+    },
+    {
+      "name": "CompLab-2",
+      "capacity": 50,
+      "type": "lab"
+    },
+    {
+      "name": "CompLab-3",
+      "capacity": 45,
+      "type": "lab"
+    },
+    {
+      "name": "CompLab-4",
+      "capacity": 40,
+      "type": "lab"
+    }
+  ],
+  "time_structure": {
+    "working_days": 5,
+    "periods_per_day": 7,
+    "break_periods": []
+  }
+}
