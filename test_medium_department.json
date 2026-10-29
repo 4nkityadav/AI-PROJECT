@@ -1,0 +1,322 @@
+{
+  "name": "MIT_School_of_Computing_Medium_Dataset",
+  "description": "Realistic Computer Science & Engineering department semester schedule for testing Class Pilot AI scheduler.",
+  "time_structure": {
+    "working_days": 5,
+    "periods_per_day": 6,
+    "day_names": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "break_periods": []
+  },
+  "subjects": [
+    {
+      "code": "CS301",
+      "name": "Database Management Systems",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "CS302",
+      "name": "Computer Networks & Security",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "CS303",
+      "name": "Design & Analysis of Algorithms",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "CS304",
+      "name": "Operating Systems & Concurrency",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "AI201",
+      "name": "Machine Learning Fundamentals",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "EC202",
+      "name": "Microprocessors & Embedded Systems",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "MA301",
+      "name": "Applied Probability & Statistics",
+      "weekly_hours": 3,
+      "type": "theory"
+    },
+    {
+      "code": "HS301",
+      "name": "Technical Communication & Ethics",
+      "weekly_hours": 2,
+      "type": "theory"
+    },
+    {
+      "code": "CS305L",
+      "name": "Database Systems Laboratory",
+      "weekly_hours": 2,
+      "type": "lab"
+    },
+    {
+      "code": "CS306L",
+      "name": "Computer Networks Laboratory",
+      "weekly_hours": 2,
+      "type": "lab"
+    },
+    {
+      "code": "AI202L",
+      "name": "Machine Learning & GPU Lab",
+      "weekly_hours": 2,
+      "type": "lab"
+    },
+    {
+      "code": "EC203L",
+      "name": "Embedded Hardware Laboratory",
+      "weekly_hours": 2,
+      "type": "lab"
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Dr. Alan Turing",
+      "subjects": [
+        "CS301",
+        "CS305L"
+      ],
+      "unavailable_slots": [
+        [0, 5]
+      ],
+      "max_weekly_load": 18,
+      "avoid_periods": [0]
+    },
+    {
+      "name": "Dr. Barbara Liskov",
+      "subjects": [
+        "CS303",
+        "CS304"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18,
+      "avoid_periods": []
+    },
+    {
+      "name": "Dr. Claude Shannon",
+      "subjects": [
+        "CS302",
+        "EC202"
+      ],
+      "unavailable_slots": [
+        [2, 5]
+      ],
+      "max_weekly_load": 18,
+      "avoid_periods": []
+    },
+    {
+      "name": "Dr. Geoffrey Hinton",
+      "subjects": [
+        "AI201",
+        "AI202L"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18,
+      "avoid_periods": []
+    },
+    {
+      "name": "Prof. Grace Hopper",
+      "subjects": [
+        "CS301",
+        "CS304"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18,
+      "avoid_periods": []
+    },
+    {
+      "name": "Prof. Donald Knuth",
+      "subjects": [
+        "CS303",
+        "MA301"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18,
+      "avoid_periods": [0]
+    },
+    {
+      "name": "Prof. Linus Torvalds",
+      "subjects": [
+        "CS304",
+        "CS306L"
+      ],
+      "unavailable_slots": [
+        [4, 0]
+      ],
+      "max_weekly_load": 18,
+      "avoid_periods": []
+    },
+    {
+      "name": "Prof. Radia Perlman",
+      "subjects": [
+        "CS302",
+        "CS306L"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18,
+      "avoid_periods": []
+    },
+    {
+      "name": "Dr. John von Neumann",
+      "subjects": [
+        "MA301",
+        "EC202"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18,
+      "avoid_periods": []
+    },
+    {
+      "name": "Prof. Margaret Hamilton",
+      "subjects": [
+        "HS301",
+        "CS305L"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 16,
+      "avoid_periods": []
+    },
+    {
+      "name": "Dr. Andrew Ng",
+      "subjects": [
+        "AI201",
+        "AI202L"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 18,
+      "avoid_periods": []
+    },
+    {
+      "name": "Prof. Ken Thompson",
+      "subjects": [
+        "EC202",
+        "EC203L"
+      ],
+      "unavailable_slots": [],
+      "max_weekly_load": 16,
+      "avoid_periods": []
+    }
+  ],
+  "classes": [
+    {
+      "name": "CSE-3A",
+      "strength": 55,
+      "subjects": [
+        "CS301",
+        "CS302",
+        "CS303",
+        "MA301",
+        "CS305L"
+      ],
+      "lunch_break_slot": 2
+    },
+    {
+      "name": "CSE-3B",
+      "strength": 52,
+      "subjects": [
+        "CS301",
+        "CS302",
+        "CS304",
+        "HS301",
+        "CS306L"
+      ],
+      "lunch_break_slot": 2
+    },
+    {
+      "name": "IT-3A",
+      "strength": 48,
+      "subjects": [
+        "CS302",
+        "CS303",
+        "CS304",
+        "AI201",
+        "CS306L"
+      ],
+      "lunch_break_slot": 3
+    },
+    {
+      "name": "AI-DS-2A",
+      "strength": 50,
+      "subjects": [
+        "AI201",
+        "CS301",
+        "MA301",
+        "HS301",
+        "AI202L"
+      ],
+      "lunch_break_slot": 2
+    },
+    {
+      "name": "ECE-2A",
+      "strength": 45,
+      "subjects": [
+        "EC202",
+        "CS302",
+        "MA301",
+        "HS301",
+        "EC203L"
+      ],
+      "lunch_break_slot": 3
+    }
+  ],
+  "rooms": [
+    {
+      "name": "LH-101",
+      "capacity": 70,
+      "type": "classroom"
+    },
+    {
+      "name": "LH-102",
+      "capacity": 65,
+      "type": "classroom"
+    },
+    {
+      "name": "CR-201",
+      "capacity": 60,
+      "type": "classroom"
+    },
+    {
+      "name": "CR-202",
+      "capacity": 55,
+      "type": "classroom"
+    },
+    {
+      "name": "Lab-DBMS",
+      "capacity": 60,
+      "type": "lab"
+    },
+    {
+      "name": "Lab-Networks",
+      "capacity": 55,
+      "type": "lab"
+    },
+    {
+      "name": "Lab-AI",
+      "capacity": 60,
+      "type": "lab"
+    },
+    {
+      "name": "Lab-Embedded",
+      "capacity": 50,
+      "type": "lab"
+    }
+  ]
+}
