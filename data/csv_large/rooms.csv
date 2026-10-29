@@ -1,0 +1,9 @@
+name,capacity,type
+Hall-A,60,classroom
+Hall-B,55,classroom
+Hall-C,50,classroom
+Hall-D,50,classroom
+CompLab-1,50,lab
+CompLab-2,50,lab
+CompLab-3,45,lab
+CompLab-4,40,lab

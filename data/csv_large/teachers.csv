@@ -1,0 +1,16 @@
+name,subjects,unavailable_slots,max_weekly_load,avoid_periods
+Dr. Agarwal,CS301;CS307,"0,6",20,0
+Dr. Banerjee,CS302;CS308,,20,
+Dr. Choudhary,CS303,"4,0",18,0
+Dr. Das,CS304;CS309,,20,
+Dr. Emani,CS305;CS310,"2,5",18,
+Dr. Fernandes,CS306,,15,0
+Dr. Ghosh,MA301,"1,0",20,0
+Dr. Hussain,MA302,,15,
+Dr. Iyer,EC301,"3,6",15,
+Prof. Joshi,CS301;CS303,,18,
+Prof. Kapoor,CS302;CS304,"0,0",18,0
+Prof. Lal,MA301;MA302,,18,
+Prof. Mehta,CS307;CS308,,16,
+Prof. Nair,CS309;CS310,"4,5",16,
+Prof. Pandey,CS305;CS306;EC301,,18,

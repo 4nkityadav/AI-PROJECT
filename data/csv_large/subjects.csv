@@ -1,0 +1,14 @@
+code,name,weekly_hours,type
+CS301,Algorithms,3,theory
+CS302,Computer Networks,3,theory
+CS303,Software Engineering,3,theory
+CS304,Machine Learning,3,theory
+CS305,Web Development,2,theory
+CS306,Cyber Security,2,theory
+MA301,Linear Algebra,3,theory
+MA302,Probability,2,theory
+EC301,Digital Electronics,2,theory
+CS307,Algo Lab,2,lab
+CS308,Networks Lab,2,lab
+CS309,ML Lab,2,lab
+CS310,Web Lab,2,lab
