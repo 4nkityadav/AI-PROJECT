@@ -1,0 +1,8 @@
+code,name,weekly_hours,type
+CS201,Data Structures,3,theory
+CS202,Database Systems,3,theory
+CS203,Operating Systems,3,theory
+MA201,Discrete Mathematics,3,theory
+PH201,Physics,2,theory
+CS204,DS Lab,2,lab
+CS205,DBMS Lab,2,lab

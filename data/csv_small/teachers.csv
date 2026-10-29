@@ -1,0 +1,7 @@
+name,subjects,unavailable_slots,max_weekly_load,avoid_periods
+Dr. Sharma,CS201;CS203,"0,5",18,0
+Dr. Gupta,CS202;CS205,"4,0",18,
+Dr. Kumar,MA201,,15,0
+Dr. Singh,PH201,"2,4",12,
+Prof. Rao,CS204,,12,
+Prof. Jain,CS201;MA201,"1,0",15,0
