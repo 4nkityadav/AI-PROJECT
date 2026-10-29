@@ -1,0 +1,8 @@
+Configuration,Time (s),Nodes,Hard Violations,Soft Penalty,Status
+Plain,0.0026,37,0,31.0,solved
+MRV only,0.0029,36,0,30.0,solved
+FC only,0.0089,36,0,26.0,solved
+MRV+FC,0.0107,36,0,24.0,solved
+MRV+FC+Degree,0.0108,36,0,24.0,solved
+MRV+FC+Degree+LCV,0.2492,36,0,48.0,solved
+All + AC3,0.2809,36,0,48.0,solved

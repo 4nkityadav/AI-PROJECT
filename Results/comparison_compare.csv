@@ -1,0 +1,4 @@
+Algorithm,Avg Time (s),Avg Nodes/Iter,Avg Hard Violations,Avg Soft Penalty,Success Rate,Min Time,Max Time,Status
+BT (Heuristics),0.1819,59,0.0,60.0,1/1,0.1819,0.1819,solved
+Min-Conflicts,0.0355,1,0.0,66.0,1/1,0.0355,0.0355,solved
+Simulated Annealing,30.0368,21450,0.0,10.0,1/1,30.0368,30.0368,solved
