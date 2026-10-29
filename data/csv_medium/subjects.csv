@@ -1,0 +1,13 @@
+code,name,weekly_hours,type
+CS301,Database Management Systems,3,theory
+CS302,Computer Networks & Security,3,theory
+CS303,Design & Analysis of Algorithms,3,theory
+CS304,Operating Systems & Kernel Design,3,theory
+AI201,Machine Learning Foundations,3,theory
+EC202,Microprocessors & Embedded Systems,3,theory
+MA301,Applied Probability & Statistics,3,theory
+HS301,Professional Ethics & Communication,2,theory
+CS305L,Database Systems Laboratory,2,lab
+CS306L,Computer Networks Laboratory,2,lab
+AI202L,Machine Learning & GPU Lab,2,lab
+EC203L,Embedded Hardware Laboratory,2,lab

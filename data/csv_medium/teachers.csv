@@ -1,0 +1,13 @@
+name,subjects,unavailable_slots,max_weekly_load,avoid_periods
+Dr. Alan Turing,CS301;CS305L,"0,5",18,0
+Dr. Barbara Liskov,CS303;CS304,,18,
+Dr. Claude Shannon,CS302;EC202,"2,5",18,
+Dr. Geoffrey Hinton,AI201;AI202L,,18,
+Prof. Grace Hopper,CS301;CS304,,18,
+Prof. Donald Knuth,CS303;MA301,,18,0
+Prof. Linus Torvalds,CS304;CS306L,"4,0",18,
+Prof. Radia Perlman,CS302;CS306L,,18,
+Dr. John von Neumann,MA301;EC202,,18,
+Prof. Margaret Hamilton,HS301;CS305L,,16,
+Dr. Andrew Ng,AI201;AI202L,,18,
+Prof. Ken Thompson,EC202;EC203L,,16,

@@ -1,0 +1,9 @@
+name,capacity,type
+LH-101,70,classroom
+LH-102,65,classroom
+CR-201,60,classroom
+CR-202,55,classroom
+Lab-DBMS,60,lab
+Lab-Networks,55,lab
+Lab-AI,60,lab
+Lab-Embedded,50,lab
