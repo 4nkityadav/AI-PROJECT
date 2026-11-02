@@ -177,13 +177,3 @@ Open your browser at `http://localhost:8501`.
 
 ---
 
-## 🎓 Evaluator & Viva Defense Cheat Sheet
-
-* **Q: Why is timetabling NP-complete?**  
-  *A: It generalizes the Graph Multi-Coloring Problem (vertices = sessions, edges = clashes, colors = slots) with multi-dimensional resource constraints.*
-* **Q: Why does MRV outperform Chronological Backtracking on dense instances?**  
-  *A: MRV applies the "fails-first" principle by selecting variables with the fewest legal values, pruning impossible branches early to prevent combinatorial thrashing.*
-* **Q: How does `FastOccupancy` achieve $O(1)$ clash detection?**  
-  *A: It maintains spatial-temporal hash counters `(day, period) -> Counter(entity)` for teachers, rooms, and classes, replacing $O(N^2)$ pairwise checks with constant-time key lookups.*
-* **Q: Why use the Two-Phase Hybrid (BT + SA) solver?**  
-  *A: Backtracking guarantees 0 hard violations ($H = 0$) in milliseconds, while Simulated Annealing optimizes soft constraints ($S \to 0$) without ever violating hard feasibility.*
